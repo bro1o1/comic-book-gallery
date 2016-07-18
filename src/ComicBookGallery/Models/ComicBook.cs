@@ -18,7 +18,7 @@ namespace ComicBookGallery.Models
         {
             get
             {
-                return SeriesTitle + " #" + IssueNumber; 
+                return '"' + SeriesTitle + " #" + IssueNumber; 
             }
         }
 
